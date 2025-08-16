@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<title>My First Webpage</title>
+<meta charset="UTF-8">
+<meta name="description" content="This is my first HTML page.">
+<meta name="keyword" content="HTML, beginner, web development">
+<meta name="author" content="Gil Scudge Ybañez">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+    }
+    h1 {
+        color: #2c3e50;
+    }
+    p {
+        line-height: 1.5;
+    }
+    .highlight {
+        background-color: yellow;
+    }
+
+</style>
+<script>
+    function greet(){
+
+        alert("Hello! Welcome to my page.");
+
+    }
+</script>
+</head>
+<body onload="greet()">
+
+
+    <h1>Welcome to My First Webpage</h1>
+    <p>This is a <b>bold</b> statement, and here is some <i>italic</i> text.</p>
+    <p class="highlight"> This paragraph is highlighted using CSS.</p>
+
+    <h2>My Favorite Fruits</h2>
+    <ul>
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Apple</li>
+    </ul>
+    <h2>Steps to Make Tea</h2>
+    <ol>
+        <li>Boil Water</li>
+        <li>Add Tea leaves</li>
+        <li>Pour into a cup</li>
+
+    </ol>
+<!-- This is a comment: The above lists shows unordered and ordered lists-->
+ <p>Visit <a href="www.example.com" target="_blank">Example Website</a>for more info.</p>
+
+
+
+<h2>My Favorite Song</h2>
+<audio controls>
+    <source src="泥中に咲く  25時ナイトコードで  初音ミク.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<h2>My Favorite Movie Scene</h2>
+<video controls>
+    <source src="videoplayback.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<h2>My Favorite Picture</h2>
+<img src="Mafuyu.jpg" alt="A beautiful view" width="300">
+
+
+
+
+<div style="border: 1px solid #000; padding:10px; margin-top:10px;">
+
+<p>This is a block container using <span style ="color:red;">div</span> and 
+    <span style ="font-weight: bold;">span</span> elements.</p>
+
+</div>
+
+<h2>Class Scheduler</h2>
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Day</th>
+        <th>Subject</th>
+
+    </tr>
+    <tr>
+        <th>Monday</th>
+        <th>HTML Basics</th>
+
+    </tr>
+    <tr>
+        <th>Tuesday</th>
+        <th>CSS Basics</th>
+
+    </tr>
+
+</table>
+
+<h2>Contact Me</h2>
+<form>
+
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+
+<label for="message">Message:</label>
+<textarea id="message" name="message"></textarea><br><br>
+
+<input type="submit" value="send">
+</form>
+
+
+</body>
+
+
+
+</html>
+
+
